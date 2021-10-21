@@ -1,0 +1,151 @@
+body{
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  font-size-adjust: none;
+  background: #252C32;;
+}
+#header{
+  background: #3e2723;
+  color:white;
+  text-align: center;
+  width: 100%;
+  height:20%;
+  padding-top:1%;
+  padding-bottom:1%;
+
+}
+.ingredients{
+  display: inline-flex;
+}
+h2{
+  color: white;
+}
+h1{
+  font-weight: lighter;
+color: white;
+}
+h3{
+  font-weight: lighter;
+  color: white;
+}
+h4{
+  color: white;
+  font-weight: lighter;
+}
+h5{
+  font-weight: lighter;
+color: white;
+}
+p{
+  color: white;
+}
+.ingredientsBox{
+    width: 100%;
+    margin: 25px;
+    justify-self: center;
+}
+.ingredientsBox h2{
+  text-align: center;
+}
+.ingredientsGrid{
+  width: 80%;
+  margin: auto;
+}
+.ingredientsGrid h2{
+  text-align:center;
+  font-weight: lighter;
+}
+nav a{
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+}
+#coffeeRow{
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  height: 10%;
+  text-align:  center;
+}
+.coffeeItems{
+  margin-top: 10px;
+  border: 1px solid;
+  border-color: transparent;
+  background: transparent;
+  color: white;
+  width: 250px;
+  height:250px;
+  border-radius: 100pt;
+  overflow:hidden;
+}
+.credits{
+  
+  text-align: center;
+  justify-content: center;
+}
+.coffeeItems img{
+  width: 250px;
+  height:250px;
+}
+.nombre{
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  color: white;
+}
+.coffeeDiv{
+  text-align: center;
+  font-weight: normal;
+  color: white;
+}
+.itemHeader{
+  background: #3b2f2f;
+  color: white;
+  width: 100%;
+  margin: 0;
+}
+#Walmart{
+  background-color: lightskyblue;
+  color: white;
+  padding: 5px;
+  border:1px solid transparent;
+  margin-right: 5px;
+  border-radius: 30px;
+}
+#Target{
+  background-color: crimson;
+  color: white;
+  padding: 5px;
+  border:1px solid transparent;
+  margin-left: 5px;
+  border-radius: 30px;
+  
+}
+#coffeeRow h2{
+  font-weight: normal;
+}
+#coffeeRow h4{
+  font-weight: lighter;
+}
+#coffeeRow h6{
+  font-size: 28sp;
+  font-weight: lighter;
+}
+@media only screen and (max-width: 550px) {
+  #coffeeRow{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    height: 10%;
+    text-align:  center;
+  }
+  .coffeeItems{
+    margin: 25px;
+  }
+
+}
