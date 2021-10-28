@@ -49,7 +49,7 @@ class ListItem extends Component{
         const {name,image}= this.props.coffee
         const stripped = name.replace(/\s+/g, '+')
         var urlW = "https://www.walmart.com/search/?query="+stripped
-        var urlT = "https://www.target.com/s?searchTerm="+name
+        var urlT = "https://www.target.com/s?searchTerm="+stripped
         return(
             <div>
             <div class="coffeeItems">
