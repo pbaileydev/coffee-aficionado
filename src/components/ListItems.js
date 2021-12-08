@@ -37,13 +37,6 @@ class ListItems extends React.Component{
         )
     }
 }
-getCoffeeApiData()
-function getCoffeeApiData() {
-    fetch('https://api.sampleapis.com/coffee/hot')
-    .then(response=>
-        response.json()).then(json=>
-            console.log(json[0]['title']))
-}
 class ListItem extends Component{
     render(){
         const {name,image}= this.props.coffee
