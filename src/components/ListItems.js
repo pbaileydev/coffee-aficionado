@@ -40,9 +40,11 @@ class ListItems extends React.Component{
 class ListItem extends Component{
     render(){
         const {name,image}= this.props.coffee
-        const stripped = name.replace(/\s+/g, '+')
-        var urlW = "https://www.walmart.com/search/?query="+stripped
-        var urlT = "https://www.target.com/s?searchTerm="+stripped
+        const strippedW = name.replace(/\s+/g, '%20')
+
+        const strippedT = name.replace(/\s+/g, '+')
+        var urlW = "https://www.walmart.com/search/?query="+strippedW
+        var urlT = "https://www.target.com/s?searchTerm="+strippedT
         return(
             <div>
             <div class="coffeeItems">
